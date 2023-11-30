@@ -45,6 +45,33 @@ func main() {
 			log.Println("Problem with task 4")
 			continue
 		
+		case "-5":
+			a := tasks.Test5()
+			if a {
+				log.Println("Task 5 passed")
+				continue
+			}
+			log.Println("Problem with task 5")
+			continue
+		
+		case "-6":
+			a := tasks.Test6()
+			if a {
+				log.Println("Task 6 passed")
+				continue
+			}
+			log.Println("Problem with task 6")
+			continue
+		
+		case "-7":
+			a := tasks.Test7()
+			if a {
+				log.Println("Task 7 passed")
+				continue
+			}
+			log.Println("Problem with task 7")
+			continue
+		
 		default:
 			RunAllTests()
 			break
